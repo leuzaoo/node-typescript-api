@@ -1,0 +1,24 @@
+{
+  "name": "nodejs-course",
+  "version": "1.0.0",
+  "description": "Typescript Node.js API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leuzaoo/node-typescript-api.git"
+  },
+  "keywords": [
+    "nodejs",
+    "typescript",
+    "api"
+  ],
+  "author": "Leonardo Costa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/leuzaoo/node-typescript-api/issues"
+  },
+  "homepage": "https://github.com/leuzaoo/node-typescript-api#readme"
+}
