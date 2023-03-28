@@ -6,6 +6,8 @@
   "scripts": {
     "build": "tsc",
     "start": "npm run build && node dist/src/index.js",
+    "lint": "eslint ./src ./test --ext .ts",
+    "lint:fix":"eslint ./src ./test --ext .ts --fix",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -22,10 +24,13 @@
   "bugs": {
     "url": "https://github.com/leuzaoo/node-typescript-api/issues"
   },
-  "homepage": "https://github.com/leuzaoo/node-typescript-api#readme",
+  "homepage": "https://github.com/leuzaoo/node-typescript-api",
   "devDependencies": {
     "@types/module-alias": "^2.0.1",
     "@types/node": "^18.15.8",
+    "@typescript-eslint/eslint-plugin": "^5.57.0",
+    "@typescript-eslint/parser": "^5.57.0",
+    "eslint": "^8.36.0",
     "typescript": "^5.0.2"
   },
   "dependencies": {
