@@ -7,7 +7,7 @@
     "build": "tsc",
     "start": "npm run build && node dist/src/index.js",
     "lint": "eslint ./src ./test --ext .ts",
-    "lint:fix":"eslint ./src ./test --ext .ts --fix",
+    "lint:fix": "eslint ./src ./test --ext .ts --fix",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -20,11 +20,11 @@
     "api"
   ],
   "author": "Leonardo Costa",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/leuzaoo/node-typescript-api/issues"
   },
-  "homepage": "https://github.com/leuzaoo/node-typescript-api",
+  "homepage": "https://github.com/leuzaoo/node-typescript-api#readme",
   "devDependencies": {
     "@types/module-alias": "^2.0.1",
     "@types/node": "^18.15.8",
